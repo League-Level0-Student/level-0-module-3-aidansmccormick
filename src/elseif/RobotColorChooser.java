@@ -5,6 +5,9 @@
 package elseif;
 
 import javax.swing.JOptionPane;
+
+import org.jointheleague.graphical.robot.Robot;
+
 import java.awt.Color;
 
 public class RobotColorChooser {
@@ -21,7 +24,28 @@ public class RobotColorChooser {
 		//2. set the pen width to 10
 		
 	    //1. make the robot draw a shape (this will take more than one line of code)
+			String color= JOptionPane.showInputDialog("What color would you like to draw");
+		Robot bot= new Robot();
+		size(10,10);
+					
+					bot.setSpeed(20);
+					bot.penDown();
+					bot.move(100);
+					bot.turn(90);
+					bot.move(100);
+					bot.turn(90);
+					bot.move(100);
+					bot.turn(90);
+					bot.move(100);
+					bot.setPenWidth(10);
+				if(bot.equals(color));
+				bot.setPenColor(0, 0, 0);
+				
+	}			
 
 
+	private static void size(int i, int j) {
+		// TODO Auto-generated method stub
+		
 	}
 }
