@@ -16,7 +16,7 @@ public class CrazyCatLady {
 		// 4. If they have 3 or less, call the method below to show them a cat video
 
 		// 5. If they say 0, show them a video of A Frog Sitting on a Bench Like a Human
-		
+
 	}
 
 	static void playVideo(String videoURL) {
@@ -29,4 +29,3 @@ public class CrazyCatLady {
 	}
 
 }
-
